@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 // const { GoogleAIFileManager, GoogleGenerativeAI } = require('@google/generative-ai/server');
 
-const apiKey = 'AIzaSyCP9rWg8_nnJFDZn6OAfdXKCDySpK1kPUs';
+const apiKey = '';
 const fileManager = new GoogleAIFileManager(apiKey);
 const genAI = new GoogleGenerativeAI(apiKey);
 const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
